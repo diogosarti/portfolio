@@ -4,8 +4,8 @@ import senac from "../img/senac.svg";
 import Info from "../components/Info";
 import { useState } from "react";
 
-import { Tab } from '@headlessui/react'
-import { Disclosure } from '@headlessui/react'
+/* import { Tab } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react' */
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 
 function classNames(...classes: string[]) {

@@ -7,7 +7,7 @@ import NavbarComponent from '../components/Navbar'
 import About from '../components/About'
 import Info from '../components/Info'
 
-import me from '../img/me.jpg'
+import me from '../../public/img/me.jpg'
 
 
 // icons
@@ -20,7 +20,7 @@ export default function Home() {
 
       
       <div className='container flex justify-center md:flex-nowrap flex-wrap my-8 gap-8'>
-        <About subtitle={'Javascript FullStack Developer'} contato="contato@diogosarti.com" name={'Diogo Sarti'} image={me} className='' />
+        <About subtitle={'Frontend Developer'} contato="diogosarti13@gmail.com" name={'Diogo Sarti'} image={me} className='' />
         <div className='w-[550px] md:w-[650px]'>
           <Info name={'Sobre'} className=''>
             <p>Comecei minha jornada pela computação pesquisando conteúdo gratuito online aos 16 anos e hoje estudo sistemas de informação.</p>
@@ -45,7 +45,7 @@ export default function Home() {
               
               <p className='py-4'>Formação para projetar, desenvolver e administrar sistemas e tecnologias de informação, além de coordenar equipes de desenvolvimento de sistemas.</p>
               <div className='flex flex-row justify-between'>
-                <p>Previsão de conclusao: 1/2026</p>
+                <p>Previsão de conclusao: 06/2026</p>
                 <Link className='text-yellow-600' href="/faculdade">Clique aqui para ver minhas notas!</Link>
               </div>
               

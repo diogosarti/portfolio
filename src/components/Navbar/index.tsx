@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image"
 import Link from "next/link"
-import logo from "../../img/logowhite.png"
+
 
 export default function NavbarComponent(){
     const [navbar, setNavbar] = useState(false);
